@@ -24,11 +24,10 @@ Objectives:
 
 ### (title)
 
-1. In this lesson, we are not using the "SaveAnchorToDisk" and "ShareAnchor" buttons so uncheck the checkbox in the inspector panel (as shown below) to hide these buttons for the time being.
-   TODO: Change the screenshot with more details.
-
-   ![Module2Chapter3step1im](images/Module2chapter3step1im.png)
-
+1. In this lesson, we are not using the "SaveAnchorToDisk" and "ShareAnchor" buttons so select both buttons and uncheck the checkbox in the inspector panel (as shown below) to hide these buttons for the time being.
+   
+![Module2Chapter3step1im](images/Module2chapter3step1im.png)
+   
 2. Next, create the instruction panel. Start by right clicking the "instructions" button, hover over "3D Object" and select "textmeshpro-text."
 
    
@@ -36,7 +35,7 @@ Objectives:
    ![Module2Chapter3step2im](images/Module2chapter3step2im.png)
 
    3. Adjust the scale and the positioning of the text so that it matches with the instructions in your scene. Also, ensure the alignment for all of the text is centered. Then delete the sample text from the text editor. Use the image below to help. 
-   
+
 
 ![Module2Chapter3step3im](images/Module2chapter3step3im.png)
 
@@ -49,7 +48,7 @@ Objectives:
 
 ![Module2Chapter3step4im](images/Module2chapter3step5im.png)
 
-***These files are located in this storage: https://onedrive.live.com/?authkey=%21ABXEC8PvyQu8Qd8&id=5B7335C4342BCB0E%21395636&cid=5B7335C4342BCB0E: please add in right storage add the link below***
+Now, click [here](https://onedrive.live.com/?authkey=%21ABXEC8PvyQu8Qd8&id=5B7335C4342BCB0E%21395636&cid=5B7335C4342BCB0E) to download the files needed in the next few steps.
 
 6. Once explorer opens, select the assets folder, then the "ASAModulesAssets" folder, and copy the anchor feedback script and the anchor module script files into the folder. 
    
@@ -76,7 +75,7 @@ Objectives:
    TODO: let me know, if I need to get the project file and update "TexMeshPro" name "feedbackpanel" instead of the above screenshot.
 
 ## Congratulations
-In this Lesson you learned how to persist Azure Spatial Anchors between app sessions and app restarts by saving the Azure Spatial Anchor ID to the local disk of the HoloLens 2. You also learned how to share Azure Spatial Anchors between multiple devices for a basic multi-user, static hologram shared experience!
+
 
 [Next Lesson: ASA Lesson 4](mrlearning-base-ch4.md)
 
