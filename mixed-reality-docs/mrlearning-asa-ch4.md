@@ -22,7 +22,7 @@ Objectives:
 
 ## Instructions
 
-### Setting Up A Photon Server
+### Setting Up Photon
 
 1. Set up a [Photon](dashboard.photonengine.com/en-US/Account/SignUp) account. Doing this will consist of imputing your email and going through some verification steps.
    
@@ -68,7 +68,7 @@ Objectives:
 
 7. Create an application ID by clicking the "create a new app" button.
 
-8. ![Module2Chapter3step8im](images/Module2chapter4step7aim.png)
+   ![Module2Chapter3step8im](images/Module2chapter4step7aim.png)
 
    - Select "Photon RUN" from the dropdown menu under "photon type." Then give it a name, (something you would remember). In this example, we named it "HoloLensPhotonProject." Once finished, click "create."
 
@@ -77,12 +77,54 @@ Objectives:
 8. Once that is done, return to your applications page and you should see something similar to the picture below. Click on the app ID and copy it. Paste is somewhere you can easily access.  
    
 
-![Module2Chapter4step8im](images/Module2chapter4step8im.png)
+![Module2Chapter4step9im](images/Module2chapter4step8im.png)
+
+9. Create a new unity project. Open Unity Hub and click on "new." Name it "HLSharingProject." Then click create. 
+
+   > note: This can take up to 2 minutes to load, based on your computer's speed.
+
+![Module2Chapter4step9im](images/Module2chapter4step9im.png)
+
+> note: pick a place to save your project in your computer by changing the "location" option. Save it to a place you will remember and have easy access to.
+
+10. Once the project loads, click on the "assets store." Then, in the search box shown in the image below, type in "PUN" and select the "Photon PUN-2 FREE" asset. 
+
+    ![Module2Chapter4step10im](images/Module2chapter4step10im.PNG)
+    
+    11. Download and import!
+    
+    ![Module2Chapter4step11im](images/Module2chapter4step11im.png)
+
+### **Setting Up the Unity Project** 
+
+1. download a new asset needed to set up Photon in Unity by clicking [here.](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/download/v2.0.0-RC1-Refresh/Microsoft.MixedReality.Toolkit.Unity.Examples-v2.0.0-RC1-Refresh.unitypackage)
+2. In Unity, click on the assets menu and select "import assets," then click on "custom assets."
+
+![Module2Chapter4step12im](images/Module2chapter4step12im.PNG)
+
+3. Select the Unity package you just downloaded from the link provided in step 1. Once the import button appears in Unity, click it.
+
+![Module2Chapter4step13im](images/Module2chapter4step13im.png)
+
+> note: wherever you downloaded the package to will be where you find it. The image above does not portray where you will find the package.
+
+4. Create a new scene (this can be done using control/command+N or by clicking "file" and selecting "new scene."). Save the scene as "HLSharedProjectMain."
+
+> note: you may receive a pop-up that looks similar to the image below. For now, just click "no."
+>
+> ![Module2Chapter4step13im](images/Module2chapter4note2im.png)
+
+5. Under "Mixed Reality Toolkit" click on "add to scene and configure."
+
+![Module2Chapter4step13im](images/Module2chapter4step15im.png)
+
+6. Once that is complete, a new profile will appear, giving you the choice to customize the profile. Click "copy and customize."
+
+![Module2Chapter4step13im](images/Module2chapter4step16im.png)
 
 
 
 ## Congratulations
-
 
 [Next Lesson: ASA Lesson 4](mrlearning-base-ch4.md)
 
