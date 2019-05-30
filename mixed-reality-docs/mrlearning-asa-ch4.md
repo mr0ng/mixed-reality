@@ -118,11 +118,32 @@ Objectives:
 
 ![Module2Chapter4step13im](images/Module2chapter4step15im.png)
 
-6. Once that is complete, a new profile will appear, giving you the choice to customize the profile. Click "copy and customize."
+6. Once that is complete, a new configuration file will appear, giving you the choice to customize the profile. Click "copy and customize."
 
 ![Module2Chapter4step13im](images/Module2chapter4step16im.png)
 
+7. Scroll down and uncheck "enable diagnostics system." This will make it easier to set up this project.
 
+![Module2Chapter4step13im](images/Module2chapter4step17im.png)
+
+8. Open the build settings (control+shift+B). Notice that the program is currently set under the "PC, Mac and Linux standalone" platform. For this project, set the platform to be "universal windows platform." Select it and click "switch platform."
+
+   ![Module2Chapter4step13im](images/Module2chapter4step18im.png)
+
+   9. Once complete, click the box that says "add open scenes." Now go to the inspector panel and ensure that the check box to the right of "virtual reality supported" (as shown in the image below) is checked. 
+
+   ![Module2Chapter4step13im](images/Module2chapter4step19im.png)
+
+   > note: Also ensure that the check box next to "scenes/HLSharedProjectMain" is also checked.
+
+   10. Under the "publishing settings" in the inspector panel scroll down to "capabilities" and ensure only the following check boxes are marked:
+       - internet client
+       - internet client server
+       - private network client server
+       - camera/webcam
+       - microphone
+
+   11. 
 
 ## Congratulations
 
