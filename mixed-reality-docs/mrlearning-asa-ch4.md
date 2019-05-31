@@ -143,7 +143,21 @@ Objectives:
        - camera/webcam
        - microphone
 
-   11. 
+   11. Just like step 2, the next step would be to import another custom package called "Lesson2" which can be downloaded [here.] (no link for this download yet) Import that package.
+
+   ![Module2Chapter4step13im](images/Module2chapter4step20im.png)
+
+   12. Now, in the project panel, go to the "prefabs" folder, since in next few steps you will be implementing a few prefabs into the scene. In the "prefabs" folder, click and drag the prefab, "DebugWindow" into the hierarchy. Once finished, save the project (click file, then save, or control+S)
+
+       ![Module2Chapter4step13im](images/Module2chapter4step21im.PNG)
+
+   > note: You may notice a pop-up appear as you click on the prefab, asking you about TMP Essentials. Click "Import TMP Essentials" as they will be needed.
+   >
+   > ![Module2Chapter4step13im](images/Module2chapter4note3im.PNG)
+
+   ### **Connecting Multiple Users**
+
+   
 
 ## Congratulations
 
