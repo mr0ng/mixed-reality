@@ -97,67 +97,79 @@ Objectives:
 
 ### **Setting Up the Unity Project** 
 
-1. download a new asset needed to set up Photon in Unity by clicking [here.](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/download/v2.0.0-RC1-Refresh/Microsoft.MixedReality.Toolkit.Unity.Examples-v2.0.0-RC1-Refresh.unitypackage)
-2. In Unity, click on the assets menu and select "import assets," then click on "custom assets."
+11. download a new asset needed to set up Photon in Unity by clicking [here.](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/download/v2.0.0-RC1-Refresh/Microsoft.MixedReality.Toolkit.Unity.Examples-v2.0.0-RC1-Refresh.unitypackage)
+
+12. In Unity, click on the assets menu and select "import assets," then click on "custom assets."
 
 ![Module2Chapter4step12im](images/Module2chapter4step12im.PNG)
 
-3. Select the Unity package you just downloaded from the link provided in step 1. Once the import button appears in Unity, click it.
+13. Select the Unity package you just downloaded from the link provided in step 1. Once the import button appears in Unity, click it.
 
 ![Module2Chapter4step13im](images/Module2chapter4step13im.png)
 
 > note: wherever you downloaded the package to will be where you find it. The image above does not portray where you will find the package.
 
-4. Create a new scene (this can be done using control/command+N or by clicking "file" and selecting "new scene."). Save the scene as "HLSharedProjectMain."
+14. Create a new scene (this can be done using control/command+N or by clicking "file" and selecting "new scene."). Save the scene as "HLSharedProjectMain."
 
 > note: you may receive a pop-up that looks similar to the image below. For now, just click "no."
 >
-> ![Module2Chapter4step13im](images/Module2chapter4note2im.png)
+> ![Module2Chapter4note2im](images/Module2chapter4note2im.png)
 
-5. Under "Mixed Reality Toolkit" click on "add to scene and configure."
+15. Under "Mixed Reality Toolkit" click on "add to scene and configure."
 
-![Module2Chapter4step13im](images/Module2chapter4step15im.png)
+![Module2Chapter4step15im](images/Module2chapter4step15im.png)
 
-6. Once that is complete, a new configuration file will appear, giving you the choice to customize the profile. Click "copy and customize."
+16. Once that is complete, a new configuration file will appear, giving you the choice to customize the profile. Click "copy and customize."
 
-![Module2Chapter4step13im](images/Module2chapter4step16im.png)
+![Module2Chapter4step16im](images/Module2chapter4step16im.png)
 
-7. Scroll down and uncheck "enable diagnostics system." This will make it easier to set up this project.
+17. Scroll down and uncheck "enable diagnostics system." This will make it easier to set up this project.
 
-![Module2Chapter4step13im](images/Module2chapter4step17im.png)
+![Module2Chapter4step17im](images/Module2chapter4step17im.png)
 
-8. Open the build settings (control+shift+B). Notice that the program is currently set under the "PC, Mac and Linux standalone" platform. For this project, set the platform to be "universal windows platform." Select it and click "switch platform."
+18. Open the build settings (control+shift+B). Notice that the program is currently set under the "PC, Mac and Linux standalone" platform. For this project, set the platform to be "universal windows platform." Select it and click "switch platform."
 
-   ![Module2Chapter4step13im](images/Module2chapter4step18im.png)
+![Module2Chapter4step18im](images/Module2chapter4step18im.png)
 
-   9. Once complete, click the box that says "add open scenes." Now go to the inspector panel and ensure that the check box to the right of "virtual reality supported" (as shown in the image below) is checked. 
+19. Once complete, click the box that says "add open scenes." Now go to the inspector panel and ensure that the check box to the right of "virtual reality supported" (as shown in the image below) is checked. 
 
-   ![Module2Chapter4step13im](images/Module2chapter4step19im.png)
+![Module2Chapter4step19im](images/Module2chapter4step19im.png)
 
-   > note: Also ensure that the check box next to "scenes/HLSharedProjectMain" is also checked.
+> note: Also ensure that the check box next to "scenes/HLSharedProjectMain" is also checked.
 
-   10. Under the "publishing settings" in the inspector panel scroll down to "capabilities" and ensure only the following check boxes are marked:
-       - internet client
-       - internet client server
-       - private network client server
-       - camera/webcam
-       - microphone
+20. Under the "publishing settings" in the inspector panel scroll down to "capabilities" and ensure only the following check boxes are marked:
 
-   11. Just like step 2, the next step would be to import another custom package called "Lesson2" which can be downloaded [here.] (no link for this download yet) Import that package.
+- internet client
+- internet client server
+- private network client server
+- camera/webcam
+- microphone
 
-   ![Module2Chapter4step13im](images/Module2chapter4step20im.png)
+21. Just like step 12, the next step would be to import another custom package called "Lesson2" which can be downloaded [here.][lesson2.unitypackage link goes here] Import that package.
 
-   12. Now, in the project panel, go to the "prefabs" folder, since in next few steps you will be implementing a few prefabs into the scene. In the "prefabs" folder, click and drag the prefab, "DebugWindow" into the hierarchy. Once finished, save the project (click file, then save, or control+S)
+![Module2Chapter4step21im](images/Module2chapter4step20im.png)
 
-       ![Module2Chapter4step13im](images/Module2chapter4step21im.PNG)
+22. Now, in the project panel, go to the "prefabs" folder, since in next few steps you will be implementing a few prefabs into the scene. In the "prefabs" folder, click and drag the prefab, "DebugWindow" into the hierarchy. Once finished, save the project (click file, then save, or control+S)
 
-   > note: You may notice a pop-up appear as you click on the prefab, asking you about TMP Essentials. Click "Import TMP Essentials" as they will be needed.
-   >
-   > ![Module2Chapter4step13im](images/Module2chapter4note3im.PNG)
+![Module2Chapter4step22im](images/Module2chapter4step21im.PNG)
 
-   ### **Connecting Multiple Users**
+> note: You may notice a pop-up appear as you click on the prefab, asking you about TMP Essentials. Click "Import TMP Essentials" as they will be needed.
+>
+> ![Module2Chapter4note3im](images/Module2chapter4note3im.PNG)
 
-   
+### **Connecting Multiple Users**
+
+23. Like step 22, in the "prefabs" folder in the project panel, the next step is to drag and drop the "NetworkLobby" prefab in to the hierarchy. 
+
+![Module2Chapter4step22im](images/Module2chapter4step22im.png)
+
+24. When you open up the parent prefab, "NetworkLobby," you should see a child prefab, "NetworkRoom." With it selected, go into the inspector panel and click "Add Component." Search for "PhotonView" and add the component.
+
+![Module2Chapter4step23im](images/Module2chapter4step23im.png)
+
+25. Create a new empty game object in the hierarchy (right click in the hierarchy and select "empty"). Ensure the positioning is set to x =0, y=0, z=0 and name the object, "PhotonUser."
+
+![Module2Chapter4step24im](images/Module2chapter4step24im.png)
 
 ## Congratulations
 
