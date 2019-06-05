@@ -10,39 +10,41 @@ Objectives:
 
   
 
-## Instructions
+## Lesson 1
 
-### Getting Started
+#### Getting Started
 
 1. Start Unity and create a new project. Enter the project name “Speech SDK Learning Module.” Choose a location for where to save your project. Then click "create project."
 
-![Module2Chapter3step1im](C:images/module4Chapter1Step1im.PNG)
+![Module4Chapter1step1im](C:images/module4Chapter1Step1im.png)
 
 > note: ensure that the template is set to "3D."
 
 2. Download the [Mixed Reality Toolkit](https://github.com/Microsoft/MixedRealityToolkit-Unity/releases/download/v2.0.0-RC1/Microsoft.MixedReality.Toolkit.Unity.Foundation-v2.0.0-RC1.unitypackage) Unity package and save it to a folder on your PC. Import the package into your Unity project. For more detailed instructions on how to do this, please see [base module lesson 1](link for base lesson). 
 
+3. Download the [Speech SDK](https://aka.ms/csspeech/unitypackage) for Unity asset package. Import the Speech SDK package by clicking on "assets," selecting "import package," then selecting "custom package." Find the Speech SDK package downloaded earlier and open it to begin the importing process.
 
-### ![Module2Chapter3step3im](C:/Users/jerem/OneDrive/Documents/GitHub/mixed-reality/mixed-reality-docs/images/Module2chapter3step3im.png)Import the Speech SDK
+![Module4Chapter1step3im](C:images/module4Chapter1Step3im.png)
 
-1. Download the [Speech SDK](https://aka.ms/csspeech/unitypackage) for Unity asset package.
-2. Import the Speech SDK package by clicking on Assets>Import>Custom Package. Find the Speech SDK package downloaded in Step 1 and open it to begin the importing process.
-3. In the next pop-up window, click “Import” to begin importing the Speech SDK package. Ensure all items are checked, as shown in the image. 
+4. In the next pop-up window, click “Import” to begin importing the Speech SDK package. Ensure all items are checked, as shown in the image below.
 
-### Import the Lunarcom Unity package
+![Module4Chapter1step4im](C:images/module4Chapter1Step4im.PNG)
 
-1. Download the [Lunarcom](https://github.com/levilais/Speech-SDK-Module/raw/master/Speech SDK Module/Lunarcom.unitypackage) asset package.
-2. Import the Lunarcom asset package by clicking on Assets>Import>Custom Package. Find the Lunarcom package downloaded in Step 1 and open it to begin the importing process.
-3. In the next pop-up window, click “Import” to begin importing the Lunarcom. Ensure all items are checked, as shown in the image. 
+5. Download the [Lunarcom](https://github.com/levilais/Speech-SDK-Module/raw/master/Speech SDK Module/Lunarcom.unitypackage) asset package. Now do the same thing as the previous steps (steps 3 and 4) but with the Lunarcom asset package instead of the Speech SDK package. 
 
-### Configure Mixed Reality Toolkit
+6. In the next pop-up window, click “Import” to begin importing the Lunarcom. Just like before, ensure all items are checked, just like the image shown in step 4.
 
-1. Configure the Mixed Toolkit by selecting from the menu bar Mixed Reality Toolkit > Configure. If you don't see this menu item after importing the mixed reality toolkit, please restart Unity. 
-2. Your scene will now have several new items and modifications in it from the Mixed Reality Toolkit. Save your scene under a different name by clicking on File>Save As and name your scene “SpeechScene”. Keep your scene organized by saving it to the “Scenes” folder in your project’s Assets folder.
-3. If you press Play and it doesn’t enter Play mode, restart Unity
-4. In the Hierarchy, click “MixedRealityToolkit”
-5. In the Inspector panel click “Copy and customize”
-6. In the Inspector panel on the right hand side disable the Enable Diagnostics System by unchecking it.
+7. Configure the Mixed Toolkit by selecting from the menu bar Mixed Reality Toolkit > Configure. If you don't see this menu item after importing the mixed reality toolkit, please restart Unity. 
+
+8. Your scene will now have several new items and modifications in it from the Mixed Reality Toolkit. Save your scene under a different name by clicking on File>Save As and name your scene “SpeechScene”. Keep your scene organized by saving it to the “Scenes” folder in your project’s Assets folder.
+
+9. If you press Play and it doesn’t enter Play mode, restart Unity
+
+10. In the Hierarchy, click “MixedRealityToolkit”
+
+11. In the Inspector panel click “Copy and customize”
+
+12. In the Inspector panel on the right hand side disable the Enable Diagnostics System by unchecking it.
 
 ### Setup Lunarcom prefab
 
