@@ -137,7 +137,7 @@ This chapter we will be configuring the launch button. This will permit the user
 
 Step 1: Select the launch button (in the base scene it’s named "LaunchRoundButton"). Drag the Lunar Module to the empty slot under "Touch End" in the inspector panel.
  ![Lesson6 Chapter5 Step1im](images/Lesson6_Chapter5_step1im.PNG)
-Step 2: Select the dropdown menu that says, "no function." Hover over "LaunchLunarModule" and select "StopThruster ()." This will control how much thrust the user wants to give to the Lunar Module. 
+Step 2: Select the dropdown menu that says, "no function." Hover over "LaunchLunarModule" and select "StopThurster ()." This will control how much thrust the user wants to give to the Lunar Module. 
  ![Lesson6 Chapter5 Step2im](images/Lesson6_Chapter5_step2im.PNG)
 Step 3: Under "ButtonPressed()", add the Lunar Module (click, hold, and drag) to the empty slot. 
 
