@@ -33,7 +33,7 @@ Objectives:
 
 ![Module3Chapter3step3im](images/module3chapter3step3im.PNG)
 
-4. Click on the "Add Component" button and type "Generic Net Sync" and select the Generic Net Sync class.                                      ![](images/module3chapter3updateStep4im.PNG)
+4. Click on the "Add Component" button and type "Generic Net Sync" and select the Generic Net Sync class.  ![module3chapter3updateStep4im](images/module3chapter3updateStep4im.png)
 5. Again click on "Add Component" and then type "Photon View" and select the Photon View class that appears in the drop down list. ![](images/module3chapter3updateStep5im.png)
 6. Now click on the File icon in for the Generic Net Sync class, then drag and drop it to the Photon View's "Observed Components" field. ![module3chapter3updateStep6im.png](images/module3chapter3updateStep6im.png) 
 7. Next, we want to create spheres to represent each person that joins a shared experience. Right click the "PhotonUser" object you just created, go down to "3D Object" and click "Sphere." This will create a sphere game object as a child of the PhotonUser object.
