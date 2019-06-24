@@ -33,21 +33,24 @@ Objectives:
 
 ![Module3Chapter3step3im](images/module3chapter3step3im.PNG)
 
-4. Next, we want to create spheres to represent each person that joins a shared experience. Right click the "PhotonUser" object you just created, go down to "3D Object" and click "Sphere." This will create a sphere game object as a child of the PhotonUser object.
+4. Click on the "Add Component" button and type "Generic Net Sync" and select the Generic Net Sync class.                                      ![](images/module3chapter3updateStep4im.PNG)
+5. Again click on "Add Component" and then type "Photon View" and select the Photon View class that appears in the drop down list. ![](images/module3chapter3updateStep5im.png)
+6. Now click on the File icon in for the Generic Net Sync class, then drag and drop it to the Photon View's "Observed Components" field. ![module3chapter3updateStep6im.png](images/module3chapter3updateStep6im.png) 
+7. Next, we want to create spheres to represent each person that joins a shared experience. Right click the "PhotonUser" object you just created, go down to "3D Object" and click "Sphere." This will create a sphere game object as a child of the PhotonUser object.
 
 ![Module3Chapter3step4im](images/module3chapter3step4im.PNG)
 
-5. Scale the sphere down to x=0.06, y=0.06, ad z=0.06.
+8. Scale the sphere down to x=0.06, y=0.06, ad z=0.06.
 
 ![Module3hapter3step5im](images/module3chapter3step5im.PNG)
 
-6. Drag the "PhotonUser" game object into the "prefabs" folder in the project panel. Then, delete it from the scene. We have now created a prefab that will be used when spawning or instantiating new players in a shared experience.
+9. Drag the "PhotonUser" game object into the "prefabs" folder in the project panel. Then, delete it from the scene. We have now created a prefab that will be used when spawning or instantiating new players in a shared experience.
 
 ![Module3Chapter3step6im](images/module3chapter3step6im.PNG)
 
 > Note: ensure that the game object has successfully copied into the "prefabs" folder before deleting it from your hierarchy.
 
-7. Create a new object in the hierarchy (using similar instructions to that of Step 3), and name it "SharedPlayground." Then, click "Add Component" and search for "generic network manager" and click it to add the Generic Network Manager component. Change the position of the object to x=0, y=0, and z =0.
+10. Create a new object in the hierarchy (using similar instructions to that of Step 3), and name it "SharedPlayground." Then, click "Add Component" and search for "generic network manager" and click it to add the Generic Network Manager component. Change the position of the object to x=0, y=0, and z =0.
 
 ![Module3Chapter3step7im](images/module3chapter3step7im.PNG)
 
