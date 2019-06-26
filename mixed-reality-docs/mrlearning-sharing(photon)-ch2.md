@@ -45,11 +45,15 @@ Objectives:
 
 6. Once that is complete, a new configuration file will appear, giving you the choice to customize the profile. Click "copy and customize."
 
-![Module3Chapter2step6im](images/module3chapter2step6im.PNG)
+   ![Module3Chapter2step6ima](images/module3chapter2step6ima.PNG)
 
-7. Scroll down and uncheck "enable diagnostics system" if you would like to hide the diagnostics window. We recommend keeping the diagnostics window enabled during app development to monitor performance, and disabling it during production or application demonstrations.
+   ![Module3Chapter2step6imb](images/module3chapter2step6imb.PNG)
 
-![Module3Chapter2step7im](images/module3chapter2step7im.PNG)
+   ![Module3Chapter2step6imc](images/module3chapter2step6imc.PNG)
+
+7. Scroll down and uncheck "enable diagnostics system" if you would like to hide the diagnostics window. We recommend keeping the diagnostics window enabled during app development to monitor performance, and disabling it during production or application demonstrations. 
+
+   ![Module3Chapter2step7ima](images/module3chapter2step7ima.PNG)
 
 8. Open the build settings by pressing control+shift+B or going to File>Build Settings. Notice that the program is currently set under the "PC, Mac and Linux standalone" platform. For HoloLens 2 development, set the platform to be "Universal Windows Platform." Select it and click "switch platform."
 
@@ -61,7 +65,7 @@ Objectives:
 
    10. Under the "Publishing Settings" section in the inspector panel scroll down to "Capabilities" and ensure the following check boxes are marked:
     - internet client
-       
+      
        - internet client server
        
        - private network client server
