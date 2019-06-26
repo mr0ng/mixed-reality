@@ -74,7 +74,7 @@ Objectives:
 
        - microphone
    
-   11. Import the custom package called "Lesson2" which can be downloaded here. TODO: Provide link to asset pack.
+   11. Import the custom package called "Lesson2" which can be downloaded [here.](https://github.com/microsoft/MixedRealityLearning/releases/download/Sharing_1/Lesson2.unitypackage)
    
    ![Module3Chapter2step12im](images/module3chapter2step11im.PNG)
    
