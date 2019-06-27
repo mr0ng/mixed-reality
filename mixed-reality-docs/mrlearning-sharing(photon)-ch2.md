@@ -67,14 +67,14 @@ Objectives:
    
    ![Module3Chapter2step9imb](images/module3chapter2step9imb.PNG)
    
-   11. Import the custom package called "Lesson2" which can be downloaded [here.](https://github.com/microsoft/MixedRealityLearning/releases/download/Sharing_2/SharingAssetCollection.unitypackage)
+   11. Import the custom package called "SharingAssetCollection" which can be downloaded [here.](https://github.com/microsoft/MixedRealityLearning/releases/download/Sharing_2/SharingAssetCollection.unitypackage)
    
    ![Module3Chapter2step12im](images/module3chapter2step11im.PNG)
    
-12. Now, in the project panel, go to the "prefabs" folder, since in next few steps you will be implementing a few prefabs into the scene. In the "prefabs" folder, click and drag the prefab, "DebugWindow" into the hierarchy. Once finished, save the project (click file, then save, or press control+S)
+   12. Now, in the project panel, go to the "prefabs" folder, since in next few steps you will be implementing a few prefabs into the scene. In the "prefabs" folder, click and drag the prefab, "DebugWindow" into the hierarchy. Once finished, save the project (click file, then save, or press control+S)
    
-       ![Module3Chapter2step12im](images/module3chapter2step12im.PNG)
-   
+      ![Module3Chapter2step12im](images/module3chapter2step12im.PNG)
+
    > Note: You may notice a pop-up appear as you click on the prefab, asking you about TMP Essentials. Click "Import TMP Essentials" as they will be needed. If this pop-up appears, you may need to delete the prefab from your hierarchy and re-drag it into your hierarchy to avoid potential text-related errors.
    >
    > ![Module3Chapter2note2im](images/module3chapter2note2im.PNG)
@@ -86,3 +86,4 @@ Your Unity Project is now ready for Photon! In the coming lessons, we'll build u
 
 [Next Lesson: Sharing(Photon) Lesson 3](mrlearning-sharing(photon)-ch3.md)
 
+2
