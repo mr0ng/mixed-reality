@@ -68,4 +68,3 @@ Your Unity Project is now ready for Photon! In the coming lessons, we'll build u
 
 [Next Lesson: Sharing(Photon) Lesson 3](mrlearning-sharing(photon)-ch3.md)
 
-2
