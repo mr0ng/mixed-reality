@@ -56,11 +56,11 @@ Objectives:
 ![Module3Chapter1step11im](images/module3chapter1step11im.PNG)
 
 8. Once Photon has completed the importing process, the Pun Wizard will appear. Take the application ID (which should be in your clipboard) from step 4 and paste it into the AppID box and press the "Setup Project" button. 
-![module3chapter1step12im](images\module3chapter1step12im.PNG)
+![module3chapter1step12im](images/module3chapter1step12im.PNG)
 
 9. After successfully adding the AppID, navigate to "Photon"->"PhotonUnityNetworking" -> "Resources" ->  "PhotonServerSettings" in Assets. Select "Use Name Server" option and set the fixed region to "us" or your photon service region.
 
-   ![module3chapter1step13im](images\module3chapter1step13im.PNG)
+   ![module3chapter1step13im](images/module3chapter1step13im.PNG)
 
 ## Congratulations
 

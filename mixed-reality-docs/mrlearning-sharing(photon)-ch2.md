@@ -22,7 +22,7 @@ Objectives:
 
 ### Instructions
 
-1. Download and save the Mixed Reality Toolkit unity package by clicking [here.](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/download/v2.0.0-RC1-Refresh/Microsoft.MixedReality.Toolkit.Unity.Foundation-v2.0.0-RC1-Refresh.unitypackage)
+1. Download and save the Mixed Reality Toolkit unity package by clicking [here.](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/download/v2.0.0-RC2.1/Microsoft.MixedReality.Toolkit.Unity.Foundation-v2.0.0-RC2.1.unitypackage)
 2. In Unity, click on the assets menu and select "Import Package," then click on "Custom Package."
 
 ![Module3Chapter2step2im](images/module3chapter2step2im.PNG)
@@ -64,21 +64,14 @@ Objectives:
    ![Module3Chapter2step9im](images/module3chapter2step9im.PNG)
 
    10. Under the "Publishing Settings" section in the inspector panel scroll down to "Capabilities" and ensure the following check boxes are marked:
-    - internet client
-      
-       - internet client server
-       
-       - private network client server
    
-       - camera/webcam
-
-       - microphone
+   ![Module3Chapter2step9imb](images/module3chapter2step9imb.PNG)
    
-   11. Import the custom package called "Lesson2" which can be downloaded [here.](https://github.com/microsoft/MixedRealityLearning/releases/download/Sharing_1/Lesson2.unitypackage)
+   11. Import the custom package called "Lesson2" which can be downloaded [here.](https://github.com/microsoft/MixedRealityLearning/releases/download/Sharing_2/SharingAssetCollection.unitypackage)
    
    ![Module3Chapter2step12im](images/module3chapter2step11im.PNG)
    
-   12. Now, in the project panel, go to the "prefabs" folder, since in next few steps you will be implementing a few prefabs into the scene. In the "prefabs" folder, click and drag the prefab, "DebugWindow" into the hierarchy. Once finished, save the project (click file, then save, or press control+S)
+12. Now, in the project panel, go to the "prefabs" folder, since in next few steps you will be implementing a few prefabs into the scene. In the "prefabs" folder, click and drag the prefab, "DebugWindow" into the hierarchy. Once finished, save the project (click file, then save, or press control+S)
    
        ![Module3Chapter2step12im](images/module3chapter2step12im.PNG)
    
