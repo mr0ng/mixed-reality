@@ -47,7 +47,7 @@ Objectives:
 
 5. Create a new unity project and name it "HLSharingProject." For instructions on how to create a new Unity project, please refer to [the Base Module's "Create Unity Project" section](https://docs.microsoft.com/en-us/windows/mixed-reality/mrlearning-base-ch1#create-new-unity-project). 
 
-6. Once the project loads, click on the "assets store" tab, as shown in the image below. Then, in the search box highlighted in the image below, type in "PUN" and select the "Photon PUN-2 FREE" asset from the search results. 
+6. Once the project loads, click on the "assets store" tab, as shown in the image below. Then, in the search box highlighted in the image below, type in "PUN" and select the "Photon PUN 2 - FREE" asset from the search results. 
 
 ![Module3Chapter1step10im](images/module3chapter1step10im.PNG)
 
@@ -56,11 +56,11 @@ Objectives:
 ![Module3Chapter1step11im](images/module3chapter1step11im.PNG)
 
 8. Once Photon has completed the importing process, the Pun Wizard will appear. Take the application ID (which should be in your clipboard) from step 4 and paste it into the AppID box and press the "Setup Project" button. 
-![module3Chapter1step12im](images\module3chapter1step12im.PNG)
+![module3chapter1step12im](images\module3chapter1step12im.PNG)
 
 9. After successfully adding the AppID, navigate to "Photon"->"PhotonUnityNetworking" -> "Resources" ->  "PhotonServerSettings" in Assets. Select "Use Name Server" option and set the fixed region to "us" or your photon service region.
 
-   ![module3Chapter1step13im](images\module3chapter1step13im.PNG)
+   ![module3chapter1step13im](images\module3chapter1step13im.PNG)
 
 ## Congratulations
 
