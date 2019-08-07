@@ -1,17 +1,18 @@
 ---
-title: MR Learning SpeechSDK Module - Speech Recognition and Transcription
+title: Azure Speech Services tutorials - 3. Adding the Azure Cognitive Services speech translation component
 description: Complete this course to learn how to implement Azure Speech SDK within a mixed reality application.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 02/26/2019
 ms.topic: article
-ms.localizationpriority: high
 keywords: mixed reality, unity, tutorial, hololens
 ---
 
-# 3.	Adding the Azure Cognitive Services speech translation component
+# 3. Adding the Azure Cognitive Services speech translation component
 
 In this tutorial, we learn aabout the Azure Cognitive Services Speech Translation component in our project as well as translate into three different languages. 
+
+## Instructions
 
 1. Select the Lunarcom_Base object in the hierarchy, and click Add Component in the inspector panel. Search for and select LunarcomTranslationRecognizer.
 
