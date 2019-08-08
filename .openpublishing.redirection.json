@@ -1,11 +1,14 @@
 {
 	"redirections": [
 		{
+<<<<<<< HEAD
 			"source_path": "mixed-reality-docs/sensor-tuning.md",
 			"redirect_url": "mixed-reality-docs/updating-hololens.md",
 			"redirect_document_id": false
 		},
 		{
+=======
+>>>>>>> parent of 6e26a24e... Merge remote-tracking branch 'upstream/master'
 			"source_path": "mixed-reality-docs/implementing-3d-deep-links-for-your-app-in-the-windows-mixed-reality-home.md",
 			"redirect_url": "mixed-reality-docs/implementing-3d-app-launchers.md#3d-deep-links-secondarytiles",
 			"redirect_document_id": false

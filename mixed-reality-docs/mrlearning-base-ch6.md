@@ -1,10 +1,11 @@
 ---
-title: Getting started tutorials - 7. Creating a Lunar Module sample application
+title: MR Learning Base Module - Lunar Module Assembly Sample Experience
 description: In this lesson, we will combine multiple concepts learned from previous lessons to create a unique sample experience.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 02/26/2019
 ms.topic: article
+ms.localizationpriority: high
 keywords: mixed reality, unity, tutorial, hololens
 ---
 

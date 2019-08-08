@@ -1,10 +1,11 @@
 ---
-title: Getting started tutorials - 4. Placing dynamic content and using solvers
+title: MR Learning Base Module - Dynamic Content Placement and Solvers
 description: Complete this course to learn how to implement Azure Face Recognition within a mixed reality application.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 02/26/2019
 ms.topic: article
+ms.localizationpriority: high
 keywords: mixed reality, unity, tutorial, hololens
 ---
 
@@ -69,8 +70,8 @@ In this section, we will configure the cube game object previously created to fo
 
 ![Lesson3 Chapter3 Step5im](images/Lesson3_chapter3_step5im.PNG)
 
-## Congratulations
+### Congratulations
 In this tutorial, you learned how to use the MRTK’s solvers to have a UI intuitively follow the user. You also learned how to attach a solver to a game object (i.e., cube) to follow the user’s tracked hands. To learn more about these and other solvers included with the MRTK, feel free to visit the [MRTK solvers documentation page](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_Solver.html).
 
-[Next Lesson: 5.	Interacting with 3D objects](mrlearning-base-ch4.md)
+[Next Lesson: 3D Object Interaction](mrlearning-base-ch4.md)
 
