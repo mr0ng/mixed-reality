@@ -1,10 +1,11 @@
 ---
-title: Azure Speech Services tutorials - 1. Integrating and using speech recognition and transcription
+title: MR Learning SpeechSDK Module - Speech Recognition and Transcription
 description: Complete this course to learn how to implement Azure Speech SDK within a mixed reality application.
 author: jessemcculloch
 ms.author: jemccull
 ms.date: 02/26/2019
 ms.topic: article
+ms.localizationpriority: high
 keywords: mixed reality, unity, tutorial, hololens
 ---
 
@@ -128,8 +129,9 @@ This tutorial creates a Mixed Reality application that explores the use of Azure
 ![Lesson1 Chapter5 Step1](images/Lesson1Chapter5Step1.JPG)
 
 2. Ensure the scene you want to try is in the “Scenes in Build” list by clicking on the “Add Open Scenes” button.
-
-3. Press the Build button to begin the build process.
+3. Press the Player Settings button and go to Publishing Settings. Under Capabilities, enable: Internet, Internet Client Server, Private Network Client Server, Microphone and Spatial Perception.
+4. In the same Player Settings, go to XR settings  and select the Virtual Reality Supported to ON.
+5. Press the Build button to begin the build process.
 
 ![Lesson1 Chapter5 Step3](images/Lesson1Chapter5Step3.JPG)
 
